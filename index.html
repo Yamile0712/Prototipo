@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grimorio - Atrévete a leer lo que debe ser leído</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-content">
+            <a href="#" class="logo">
+                <img src="./multimedia/LOGO_GRIMORIO_page-0001-removebg-preview.png" alt="Logo de Grimorio" class="logo-image">
+            </a>
+            
+            <nav class="main-nav">
+                <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+                <ul class="nav-links">
+                    <li><a href="#explora">Explora el Museo</a></li>
+                    <li><a href="#comunidad">Comunidad</a></li>
+                    <li><a href="#eventos">Eventos y Desafíos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><button class="mode-toggle" id="mode-toggle">Modo Claro</button></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hero">
+            <h2 class="hero-slogan">Atrévete a leer lo que debe ser leído</h2>
+            <h2 class="hero-cta">Tu próxima lectura te espera... ¿te atreves a entrar?</h2>
+            
+            <div class="hero-image-container">
+                <img src="./multimedia/imagen.jpg" alt="Ilustración oscura de Noctis/Grimorio" class="image-fit" style="display: block;"> 
+            </div>
+            
+            <a href="#explora" class="btn-primary">Explorar el Mundo</a>
+            <a href="#comunidad" class="btn-primary" style="margin-left: 10px;">Únete a la comunidad</a>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="explora" class="section-recommendations">
+            <h2>Descubre y Siente</h2>
+            <h3>Recomendado para ti</h3>
+
+            <div class="noctis-recommendations">
+                <div class="book-cards-grid">
+                    <article class="book-card">
+                        <div class="book-image-placeholder">
+                             <img src="./multimedia/imagen1.jpg" alt="Portada de Libro A" class="image-fit">
+                        </div>
+                        <h5>Título del Libro A</h5>
+                    </article>
+                    <article class="book-card">
+                        <div class="book-image-placeholder">
+                             <img src="./multimedia/imagen2.jpg" alt="Portada de Libro B" class="image-fit">
+                        </div>
+                        <h5>Título del Libro B</h5>
+                    </article>
+                    <article class="book-card">
+                        <div class="book-image-placeholder">
+                             <img src="./multimedia/imagen3.jpg" alt="Portada de Libro C" class="image-fit">
+                        </div>
+                        <h5>Título del Libro C</h5>
+                    </article>
+                    <article class="book-card">
+                        <div class="book-image-placeholder">
+                             <img src="./multimedia/imagen4.jpg" alt="Portada de Libro D" class="image-fit">
+                        </div>
+                        <h5>Título del Libro D</h5>
+                    </article>
+                </div>
+            </div>
+            
+            <div class="categories-grid">
+                <article class="category-card">
+                    <div class="category-card-icon">📚</div>
+                    <h4>Para cuando te sientes perdido</h4>
+                </article>
+                <article class="category-card">
+                    <div class="category-card-icon">❓</div>
+                    <h4>Historias que te harán dudar de la realidad</h4>
+                </article>
+                <article class="category-card">
+                    <div class="category-card-icon">🔍</div>
+                    <h4>Misterios que no podrás soltar</h4>
+                </article>
+                <article class="category-card">
+                    <div class="category-card-icon">👽</div>
+                    <h4>Personajes tan extraños como tú</h4>
+                </article>
+            </div>
+            
+        </section>
+
+        <section id="comunidad" class="section-community">
+            <h2>Comunidad</h2>
+            
+            <div class="community-opinions">
+                <h3>Lo que la comunidad opina</h3>
+                <div class="carousel-container">
+                    <div class="carousel-track" id="testimonial-track">
+                        <div class="testimonial-card">
+                            <p>"¡Una plataforma increíble! Encontré mi nueva saga de fantasía favorita. El diseño es muy inmersivo."</p>
+                            <span>— Usuario 1</span>
+                        </div>
+                        <div class="testimonial-card">
+                            <p>"El diseño oscuro te atrapa. La sección de Terror es genial, ¡siempre hay debates activos!"</p>
+                            <span>— Usuario 2</span>
+                        </div>
+                        <div class="testimonial-card">
+                            <p>"Me gusta que los desafíos de lectura realmente motivan a terminar esos libros que tenías pendientes."</p>
+                            <span>— Lector Nocturno</span>
+                        </div>
+                    </div>
+                    <div class="carousel-nav">
+                        <button class="prev">❮</button>
+                        <button class="next">❯</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="forums-list">
+                <h3>Foros</h3>
+                <ul>
+                    <li>
+                        <a href="#">Terror</a>
+                        <div class="forum-image-placeholder">
+                             <img src="./multimedia/imagen5.jpg" alt="Imagen del Foro de Terror" class="image-fit">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Ciencia Ficción</a>
+                        <div class="forum-image-placeholder">
+                             <img src="./multimedia/imagen6.jpg" alt="Imagen del Foro de Ciencia Ficción" class="image-fit">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Fantasía</a>
+                        <div class="forum-image-placeholder">
+                             <img src="./multimedia/imagen7.jpg" alt="Imagen del Foro de Fantasía" class="image-fit">
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Comparte tu Arte</a>
+                        <div class="forum-image-placeholder">
+                             <img src="./multimedia/imagen8.jpg" alt="Imagen del Foro de Arte" class="image-fit">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="eventos" class="section-events">
+            <h2>Eventos y Desafíos</h2>
+            <article class="challenge-banner">
+                <h3>Reto Grimorio 2025:</h3>
+                <p>¿Cuántos libros nos atrevemos a leer?</p>
+                <div id="challenge-counter">0000</div> 
+            </article>
+
+            <div class="creative-contests">
+                <h3>Concursos Creativos</h3>
+                <ul>
+                    <li>Concurso de Relatos Con El Herrero Inkdiuu</li>
+                    <li>Concurso de Relatos</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section-multimedia">
+            <h2>Multimedia</h2>
+            <div class="multimedia-container">
+                <article class="videos">
+                    <h3>Videos Cortos</h3>
+                    <div class="media-placeholder video-placeholder">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/simulado" title="Video Simulacro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border: none;"></iframe>
+                    </div>
+                </article>
+                <article class="gallery">
+                    <h3>Galería Visual</h3>
+                    <div class="media-placeholder gallery-placeholder">
+                        <img src="./multimedia/imagen9.jpg" alt="Imagen principal de la galería" class="image-fit">
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section-about">
+            <h2>Sobre el Proyecto</h2>
+            
+            <div class="about-details">
+                <p>Inspiración</p>
+                <p>Misión & Visión</p>
+                <p>Historia</p>
+                <p>Importancia de Lectura</p>
+                <p>Propósito</p>
+                <p>Año de Creación: 2025</p>
+                <p>Equipo</p>
+            </div>
+        </section>
+
+        <section id="contacto" class="section-contact">
+            <h2>Contacto</h2>
+            <p style="color: var(--color-text-secondary); margin-bottom: 15px;">Tu próxima lectura... a leer lo que debe ser leído</p>
+            <form id="contact-form">
+                <input type="email" placeholder="Tu correo" required>
+                <textarea placeholder="Tu mensaje" required></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+        </main>
+
+    <footer class="main-footer">
+        
+        <section class="footer-links">
+            <h4>Enlaces Rápidos</h4>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#explora">Explorar el Museo</a></li>
+                <li><a href="#comunidad">Comunidad</a></li>
+                <li><a href="#">FAQ (Preguntas Frecuentes)</a></li>
+            </ul>
+        </section>
+
+        <section class="footer-social">
+            <h4>Social</h4>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">TikTok</a></li>
+                <li><a href="#">You Tube</a></li>
+            </ul>
+        </section>
+        
+        <section class="footer-info">
+            <h4>Grimorio</h4>
+            <p style="color: var(--color-text-secondary);">Atrévete a leer lo que debe ser leído.</p>
+        </section>
+
+        <div class="footer-bottom">
+            <p>Legal | Privacidad y Manifiesto</p>
+            <p class="footer-quote">
+                "La emoción más antigua y más fuerte de la humanidad, es el miedo; y el tipo de miedo más fuerte es el miedo a lo desconocido."
+            </p>
+            <p>Derechos reservados © 2025 Grimorio</p>
+        </div>
+    </footer>
+
+    <script src="./js.js"></script>
+</body>
+</html>
