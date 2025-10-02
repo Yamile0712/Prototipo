@@ -15,8 +15,8 @@ body.light-mode {
     --color-bg: #f4f4f4;
     --color-text: #1a1a1a;
     --color-secondary-bg: #ffffff;
-    --color-accent: #8b4513; /* Marrón oscuro para acento */
-    --color-text-secondary: #555555;
+    --color-accent: #8D0000; /* Marrón oscuro para acento */
+    --color-text-secondary: #000000;
     --color-footer-bg: #dddddd;
 }
 
@@ -318,20 +318,7 @@ main section {
     transition: transform 0.5s ease-in-out; 
 }
 
-.testimonial-card {
-    min-width: 100%;
-    padding: 20px;
-    text-align: center;
-    font-style: italic;
-    flex-shrink: 0; 
-}
 
-.testimonial-card span {
-    font-weight: bold;
-    color: var(--color-accent);
-    display: block;
-    margin-top: 10px;
-}
 
 .carousel-nav button {
     position: absolute;
