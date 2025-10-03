@@ -14,7 +14,7 @@
 /* Variables para el Modo Claro */
 body.light-mode {
     --color-bg: #f4f4f4;
-    --color-text: #1a1a1a;
+    --color-text: #000000;
     --color-secondary-bg: #ffffff;
     --color-accent: #8D0000;
     /* Marrón oscuro para acento */
