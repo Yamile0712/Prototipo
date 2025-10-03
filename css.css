@@ -2,11 +2,11 @@
 :root {
     --color-bg: #0f0f0f;
     --color-text: #f4f4f4;
-    --color-secondary-bg: #1a1a1a;
+    --color-secondary-bg: #570000;
     --color-accent: #c4a100;
     /* Dorado/ámbar */
     --color-text-secondary: #aaaaaa;
-    --color-footer-bg: #000;
+    --color-footer-bg: #2a351d;
     --font-primary: 'Arial', sans-serif;
     --font-titles: 'Georgia', serif;
 }
